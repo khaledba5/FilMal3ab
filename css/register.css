@@ -13,7 +13,7 @@ body{
 }
 input{
 	margin-left: 60px;
-	margin-bottom: 30px;
+	margin-bottom: 17px;
 	height: 30px;
 	border-radius: 15px;
 	text-align: center;
@@ -21,4 +21,9 @@ input{
 button{
 	margin-left: 60px;
 	margin-top: 30px;
+	width: 170px;
+	height: 40px;
+	background-color: #51a829;
+	border-color: #51a829; 
+	color: white;
 }
