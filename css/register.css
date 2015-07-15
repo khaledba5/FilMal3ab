@@ -1,29 +1,33 @@
+.nav{
+	width: 101%;
+	background-color: white;
+	margin: -7px;
+}
+p{
+	font-family: sans-serif;
+	color: #494949;
+	font-weight: 100;
+}
 body{
-	background:url(../images/bg.jpg) no-repeat center center fixed; 
-
-	  background-size: cover;
+	background-color: #E6E6E6;
+	font-family: Helvetica;
 }
-#container{
-	width:300px;
-	height:450px;
-	margin-top:8%;
-	margin-left:40%;
-	background-color: rgba(0,0,0,0.7);
-	border-radius: 20px;
+.logo{
+	margin-left: 20%;
+	display: inline-block;
 }
-input{
-	margin-left: 60px;
-	margin-bottom: 17px;
-	height: 30px;
-	border-radius: 15px;
-	text-align: center;
+#login {
+	width: 200px;
+	display: inline-block;
+	float: right;
+	margin-right: 20%;
+	color: #494949;
 }
-button{
-	margin-left: 60px;
-	margin-top: 30px;
-	width: 170px;
-	height: 40px;
-	background-color: #51a829;
-	border-color: #51a829; 
-	color: white;
+#login a{
+	float: right;
+	margin-right: 20px;
+	margin-top: -10px;
+	color: #777;
+	font-weight: 600;
+	text-decoration: none;
 }
